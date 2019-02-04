@@ -28,14 +28,14 @@ for year in years:
         page = scraper.go(url)  
         divs = page.find_all('div',{"class":"schedules-list-content"})  
         for div in divs:
-            print (div['data-gameid'])
+            #print (div['data-gameid'])
             gameids=(div['data-gameid']), year, stype
             
-            print (gameids)
+            #print (gameids)
         
-        print (url)
+        #print (url)
         
-print (div['data-gameid'])
+#print (div['data-gameid'])
 
 stype = "POST"
 for year in years:    
@@ -45,18 +45,19 @@ for year in years:
         page = scraper.go(url)  
         divs = page.find_all('div',{"class":"schedules-list-content"})  
         for div in divs:
-            print (div['data-gameid'])
+            #print (div['data-gameid'])
             gameids=(div['data-gameid']), year, stype
            
-            print (gameids)
+            #print (gameids)
         
-        print (url)
+        #print (url)
         
 
 for game in gameids:
     
-    with urllib.request.urlopen("http://www.nfl.com/liveupdate/game-center/%s/%s_gtd.json"%(game,game)) as url:
-        data = json.loads(url.read().decode())
-        f.write(json.dumps(data))
+    urllib.request.urlretrieve("http://www.nfl.com/liveupdate/game-center/%s/%s_gtd.json"%(game,game),game)
+    sleep(.02)
+    #data = json.loads(url.read().decode())
+        
+f.write(json.dumps(gameids))
          
-    print(data)
