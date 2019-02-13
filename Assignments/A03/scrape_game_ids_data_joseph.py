@@ -18,6 +18,7 @@ gameids =[]
 
 f = open("nfldata.json", "w")
 #f.write(json.dumps("REG"))
+#loops through to get the game ids and write them to the json file
 for year in years:    
     
     for week in weeks:
@@ -38,6 +39,7 @@ for year in years:
 stype = "POST"
 
 #f.write(json.dumps("POST"))
+#loops through to get the game ids and write them to the json file
 for year in years:    
     
     for week in weeks:
@@ -54,6 +56,7 @@ for year in years:
 
 #f.write(json.dumps(gameids))        
 
+#gets data from the specified link and creats a json file with the data
 for gameid in gameids:
         #print (gameid)
         urllib.request.urlretrieve("http://www.nfl.com/liveupdate/game-center/%s/%s_gtd.json"%(gameid,gameid),gameid+'.json')    
