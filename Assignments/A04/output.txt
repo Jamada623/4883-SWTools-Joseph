@@ -1,0 +1,141 @@
+Name: your name
+Assignment: A04 - Nfl Stats 
+Date: 03/01
+
+==================================================================================
+
+
+Q1
+Teams played for:
+#     PlayerID      Name          # Teams
+=========================================
+	00-0024298  A.Smith 	    22 
+	00-0022780  D.Williams      19 
+	00-0031054  D.Jones         19 
+	00-0027702  M.Williams      16 
+	00-0032257  D.Johnson       15 
+	00-0025460  J.Jones         15 
+	00-0030761  J.Thomas        14 
+	00-0033940  J.Johnson       14 
+	00-0031934  D.Smith         13 
+	00-0029195  D.Harris        13  
+
+Q2
+Top 5 rushing players:
+
+#     PlayerID      Name        Year    # Yards
+================================================
+	0-0026858  G.Gano:	2015    154320: 
+	00-0023853 M.Prater:	2013    146390: 
+	00-0024333 S.Gostkowski:2015    138430: 
+	00-0027145 P.McAfee:	2014    135968: 
+	00-0024333 S.Gostkowski:2014    134650:
+
+Q3
+Bottom 5 passing players:
+
+#     PlayerID      Name        Year    # Yards
+================================================
+	00-0021146  D.Freeney:	2009    -2232: 
+	00-0023368  C.Wake:	2009    -1958: 
+	00-0026989  B.Orakpo:	2009    -1770: 
+	00-0022059  R.Mathis:	2009    -1526: 
+	00-0024235  T.Hali:	2009    -1251: 
+
+Q4
+Top rushes in a loss:
+
+#     PlayerID      Name        Year    # Yards
+================================================
+	NE 				239 
+	PIT 				368 
+	NO 				409 
+	GB 				416 
+	IND 				420 
+
+Q5
+Top 5 teams with the most penalties:
+
+#      Team         # Yards
+================================================
+	ATL 		917 
+	NYG 		966 
+	IND 		976 
+	MIN 		977 
+	MIA 		978 
+
+Q6
+Average number of plays in a game:
+
+#     Team         Season             Avg Plays
+================================================
+
+Q7
+Top 5 players with fiels goals over 40 yards:
+
+#     Player            Year        Field Goals
+================================================
+	P.Harvin 	2011  		103: 
+	T.Hill 		2018  		91: 
+	A.Brown 	2010  		89: 
+	A.Hooper 	2017  		88: 
+	M.Goodwin 	2016  		84: 
+
+Q8
+Top 5 players with shortest avg field goal length:
+
+#     Player                      AVG Field Goal
+================================================
+
+Q9
+
+NFL by win/loss percentage:
+
+#     Team         Won/Loss %
+
+	CLE  		41  
+	JAX  		54  
+	TB  		55  
+	OAK  		61  
+	WAS  		63  
+	BUF  		67  
+	LA  		67  
+	TEN  		69  
+	DET  		71  
+	MIA  		72  
+	NYJ  		74  
+	CHI  		76  
+	NYG  		78  
+	SF  		80  
+	ARI  		82  
+	HOU  		84  
+	CAR  		84  
+	CIN  		85  
+	MIN  		85  
+	LAC  		87  
+	KC  		90  
+	DAL  		92  
+	PHI  		93  
+	IND  		95  
+	ATL  		95  
+	DEN  		96  
+	BAL  		101  
+	SEA  		103  
+	NO  		107  
+	PIT  		108  
+	GB  		109  
+	NE  		139  
+
+
+
+Q10
+
+Common Names:
+
+#     Name         Occurences
+================================================
+     Smith  		61  
+     Williams  		49  
+     Jones 		45  
+     Jones  		45  
+     Johnson  		40  
